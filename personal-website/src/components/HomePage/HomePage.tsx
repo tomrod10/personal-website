@@ -1,9 +1,8 @@
 import React from "react";
+import { Header } from '../Header/Header.tsx'
 
 export const HomePage: React.FC = () => {
   return (
-    <h1>
-      {'HomePage'}
-    </h1>
+    <Header />
   )
 }
