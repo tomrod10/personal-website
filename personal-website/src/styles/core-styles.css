@@ -1,0 +1,30 @@
+:root {
+  --spacerXXS: 4px;
+  --spacerXS: 8px;
+  --spacerS: 12px;
+  --spacer: 16px;
+  --spacerL: 24px;
+  --spacerXL: 32px;
+  --spacerXXL: 48px;
+
+  --fontSizeXS: 10px;
+  --fontSizeS: 12px;
+  --fontSizeM: 14px;
+  --fontSizeL: 16px;
+  --fontSize: 24px;
+
+  --fontWeight1: 200;
+  --fontWeight2: 400;
+  --fontWeight3: 600;
+  --fontWeight4: 800;
+
+  --fontFamily1: 'Roboto', sans-serif;
+  --fontFamilyMono1: 'Roboto Mono', sans-serif;
+
+  --borderRadiousS: 2px;
+  --borderRadius: 4px;
+
+  /* Elevation */
+  --Zmodal: 1300;
+
+}
