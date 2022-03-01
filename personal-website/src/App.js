@@ -1,9 +1,9 @@
-import './App.css';
-import { HomePage } from './components/HomePage.tsx'
+import React from 'react'
+import { HomePage } from './components/HomePage/HomePage.tsx'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <HomePage />
     </div>
   );
