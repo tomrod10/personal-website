@@ -1,0 +1,7 @@
+@import '../../styles/core-styles.css';
+
+.title {
+  font-size: var(--fontSizeL);
+  font-weight: var(--fontWeight4);
+  font-family: var(--fontFamilyMono1);
+}
