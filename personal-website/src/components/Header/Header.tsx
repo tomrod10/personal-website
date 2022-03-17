@@ -1,10 +1,13 @@
 import React from "react";
-import ahhh from './Header.module.css';
+
+import { Title } from './Title.tsx'
+
+import styles from './Header.module.css';
 
 export const Header: React.FC = () => {
   return (
-    <div className={ahhh.test}>
-      {'Header'}
+    <div className={styles.test}>
+      <Title title={'zABhorh'} />
     </div>
   )
 }
