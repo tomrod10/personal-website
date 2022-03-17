@@ -1,14 +1,11 @@
 import React from "react";
+import { websiteTitle } from '../../core-data/website-data.ts'
+import styles from './Title.module.css'
 
-interface mainTitle {
-  title: String
-}
-
-export const Title: React.ReactNode = (mainTitle: mainTitle) => {
-  const { title } = mainTitle
+export const Title: React.ReactNode = () => {
   return(
-    <div>
-      {title}
+    <div className={styles.title}>
+      {websiteTitle}
     </div>
   )
 }

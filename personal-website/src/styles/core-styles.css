@@ -10,8 +10,10 @@
   --fontSizeXS: 10px;
   --fontSizeS: 12px;
   --fontSizeM: 14px;
-  --fontSizeL: 16px;
-  --fontSize: 24px;
+  --fontSize: 16px;
+  --fontSizeL: 24px;
+  --fontSizeXL: 36px;
+  --fontSizeXXL: 48px;
 
   --fontWeight1: 200;
   --fontWeight2: 400;
@@ -19,7 +21,7 @@
   --fontWeight4: 800;
 
   --fontFamily1: 'Roboto', sans-serif;
-  --fontFamilyMono1: 'Roboto Mono', sans-serif;
+  --fontFamilyMono1: 'Roboto Mono', monospace;
 
   --borderRadiousS: 2px;
   --borderRadius: 4px;
