@@ -1,6 +1,8 @@
 @import '../../styles/core-styles.css';
 
-.title {
+.title > a{
+  width: fit-content;
+  padding: var(--spacerS);
   font-size: var(--fontSizeL);
   font-weight: var(--fontWeight4);
   font-family: var(--fontFamilyMono1);

@@ -1,8 +1,14 @@
 @import '../../styles/core-styles.css';
 
 .header{
-  display: flex;
-  padding: var(--spacerS);
+  display: grid;
+  grid-template-areas:
+            "a b"
+            "a c"
+            "a c";
+  grid-template-rows: auto 1fr;
+  grid-template-columns: auto 4fr;
+  gap: var(--spacerL);
   align-items: center;
   flex-direction: row;
 }

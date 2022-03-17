@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Title } from './Title.tsx'
-import { NavBar } from './NabBar.tsx';
+import { NavBar } from './NavBar.tsx';
 
 import styles from './Header.module.css';
 

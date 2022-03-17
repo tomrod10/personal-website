@@ -1,0 +1,8 @@
+@import '../../styles/core-styles.css';
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacerS);
+  width: fit-content;
+}
