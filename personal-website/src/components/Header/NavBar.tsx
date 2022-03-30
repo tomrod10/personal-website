@@ -5,9 +5,9 @@ import styles from './NavBar.module.css'
 export const NavBar = () => {
   return(
     <div className={styles.navbar}>
-      <div>{'purpose'}</div>
-      <div>{'purpose'}</div>
-      <div>{'purpose'}</div>
+      <a>{'about'}</a>
+      <a>{'gallery'}</a>
+      <a>{'contact'}</a>
     </div>
   )
 }

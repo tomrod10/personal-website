@@ -1,14 +1,13 @@
 @import '../../styles/core-styles.css';
 
+:root {
+  --titleNavBarGap: 150px;
+}
+
 .header{
-  display: grid;
-  grid-template-areas:
-            "a b"
-            "a c"
-            "a c";
-  grid-template-rows: auto 1fr;
-  grid-template-columns: auto 4fr;
-  gap: var(--spacerL);
+  display: flex;
+  padding: var(--spacerXXS);
+  gap: var(--titleNavBarGap);
   align-items: center;
   flex-direction: row;
 }
