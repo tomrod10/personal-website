@@ -1,8 +1,13 @@
 @import '../../styles/core-styles.css';
 
+:root {
+  --titleNavBarGap: 150px;
+}
+
 .header{
   display: flex;
-  padding: var(--spacerS);
+  padding: var(--spacerXXS);
+  gap: var(--titleNavBarGap);
   align-items: center;
   flex-direction: row;
 }

@@ -4,8 +4,8 @@ import styles from './Title.module.css'
 
 export const Title: React.ReactNode = () => {
   return(
-    <div className={styles.title}>
+    <h1 className={styles.title}>
       {websiteTitle}
-    </div>
+    </h1>
   )
 }

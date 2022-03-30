@@ -1,0 +1,19 @@
+@import '../../styles/core-styles.css';
+
+:root {
+  --navBarWidth: 400px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacerXXL);
+  width: var(--navBarWidth);
+  padding: var(--spacerS);
+  font-family: var(--fontFamily1);
+  /* justify-content: space-between; */
+}
+
+.link {
+  width: fit-content;
+}
