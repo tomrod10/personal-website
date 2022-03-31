@@ -1,6 +1,7 @@
 @import '../../styles/core-styles.css';
 
 :root {
+  /* use multiple from spacer */
   --navBarWidth: 400px;
 }
 

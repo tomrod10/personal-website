@@ -1,6 +1,7 @@
 @import '../../styles/core-styles.css';
 
 :root {
+  /* use multiple from spacer */
   --titleNavBarGap: 150px;
 }
 
@@ -16,6 +17,7 @@
 .sidebar {
   display: inline-block;
   height: 100%;
+ /* use multiple from spacer */
   width: 138px;
   padding: var(--spacerS);
   font-family: var(--fontFamily1);
@@ -24,6 +26,12 @@
 .gallery {
   width: 100%;
   display: flex;
+  flex-direction: column;
   padding: var(--spacerS);
   font-family: var(--fontFamily1);
+  overflow: auto;
+}
+
+.item {
+  margin-bottom: var(--spacer);
 }
