@@ -16,7 +16,6 @@
 .sidebar {
   display: inline-block;
   height: 100%;
-  /* width: 148px; */
   width: 138px;
   padding: var(--spacerS);
   font-family: var(--fontFamily1);
