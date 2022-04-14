@@ -17,4 +17,22 @@ export const images = [
     description: 'lorem ipsum blah blah',
     img: require('./Poster No. 8_Winner.jpg'),
   },
+  {
+    title: 'Autocorrect',
+    date: '10/14/2019',
+    description: 'lorem ipsum blah blah',
+    img: require('./Poster No. 11_Winner.jpg'),
+  },
+  {
+    title: 'Permanent Beta',
+    date: '10/21/2019',
+    description: 'lorem ipsum blah blah',
+    img: require('./Poster No. 18_Winner.jpg'),
+  },
+  {
+    title: 'Razer',
+    date: '10/24/2019',
+    description: 'lorem ipsum blah blah',
+    img: require('./Poster No. 21_Bonus_Freebie Winner.jpg'),
+  },
 ]

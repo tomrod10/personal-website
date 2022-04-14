@@ -1,5 +1,4 @@
 import React from "react";
-import { dummyData } from "../../core-data/dummy-data.ts";
 import { images } from "../../images"
 
 import styles from "./MainContent.module.css"
