@@ -1,11 +1,9 @@
-import React from "react";
+import React from "react"
 import { images } from "../../images/index.ts"
 
-import styles from "./MainContent.module.css"
+import { filter } from 'lodash'
 
-interface props {
-  category?: string,
-}
+import styles from "./MainContent.module.css"
 
 interface image {
   title: string,
@@ -16,7 +14,10 @@ interface image {
   categories: string[],
 }
 
-export const Gallery = (category: props) => {
+export const Gallery = ({category}) => {
+  console.log(category)
+  const filtered: object[] = filter(images, images.categories?.includes(category))
+  console.log({filtered})
   return (
     <div className={styles.gallery}>
       {images.map((image: image) => (

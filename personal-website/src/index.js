@@ -12,7 +12,8 @@ ReactDOM.render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="all" element={<Gallery />} />
+        <Route path="all" element={<Gallery category="all"/>} />
+        <Route path="other" element={<Gallery category="other"/>} />
       </Routes>
     </Router>
   </React.StrictMode>,

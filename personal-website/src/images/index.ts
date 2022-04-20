@@ -47,4 +47,12 @@ export const images: [] = [
       author: 'Tomás Rodríguez',
       categories: ['all, design'],
     },
+    {
+      title: 'Braun Hifi Audio System',
+      date: '10/24/2019',
+      description: 'lorem ipsum blah blah',
+      img: ('./Braun Audio 300 by Dieter Rams.jpeg'),
+      author: 'Dieter Rams',
+      categories: ['all, other'],
+    },
   ]
