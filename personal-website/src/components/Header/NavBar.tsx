@@ -6,8 +6,12 @@ import styles from './NavBar.module.css'
 export const NavBar = () => {
   return(
     <nav className={styles.navbar}>
-      <Link to="/test">TEST</Link>
-      <a>{'all'}</a>
+      <ul className={styles.navBarItem}>
+        <li>
+          <Link to="/">all</Link>
+        </li>
+      </ul>
+
       <a>{'design'}</a>
       <a>{'images'}</a>
       <a>{'architecture'}</a>

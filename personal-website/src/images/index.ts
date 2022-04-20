@@ -5,16 +5,15 @@ export const images: [] = [
       description: 'lorem ipsum blah blah',
       img: ('./Poster No. 6_Winner.jpg'),
       author: 'Tomás Rodríguez',
-      category: ['all, design'], // subject to change depending the links for the navbar
+      categories: ['all, design'], // subject to change depending the links for the navbar
     },
-    // update the src paths to the rest of the images!
     {
       title: 'Mt. Baldy',
       date: '10/10/2019',
       description: 'lorem ipsum blah blah',
       img:  ('./Poster No. 7_Winner.jpg'),
       author: 'Tomás Rodríguez',
-      category: ['all, design'],
+      categories: ['all, design'],
     },
     {
       title: 'Sling and stone',
@@ -22,7 +21,7 @@ export const images: [] = [
       description: 'lorem ipsum blah blah',
       img: ('./Poster No. 8_Winner.jpg'),
       author: 'Tomás Rodríguez',
-      category: ['all, design'],
+      categories: ['all, design'],
     },
     {
       title: 'Autocorrect',
@@ -30,7 +29,7 @@ export const images: [] = [
       description: 'lorem ipsum blah blah',
       img: ('./Poster No. 11_Winner.jpg'),
       author: 'Tomás Rodríguez',
-      category: ['all, design'],
+      categories: ['all, design'],
     },
     {
       title: 'Permanent Beta',
@@ -38,7 +37,7 @@ export const images: [] = [
       description: 'lorem ipsum blah blah',
       img: ('./Poster No. 18_Winner.jpg'),
       author: 'Tomás Rodríguez',
-      category: ['all, design'],
+      categories: ['all, design'],
     },
     {
       title: 'Razer',
@@ -46,6 +45,6 @@ export const images: [] = [
       description: 'lorem ipsum blah blah',
       img: ('./Poster No. 21_Bonus_Freebie Winner.jpg'),
       author: 'Tomás Rodríguez',
-      category: ['all, design'],
+      categories: ['all, design'],
     },
   ]

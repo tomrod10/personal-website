@@ -13,3 +13,7 @@
   padding: var(--spacerS);
   font-family: var(--fontFamily1);
 }
+
+.navBarItem {
+  list-style: none;
+}
