@@ -15,9 +15,7 @@ interface image {
 }
 
 export const Gallery = ({category}) => {
-  console.log(category)
   const filtered: object[] = filter(images, images.categories?.includes(category))
-  console.log({filtered})
   return (
     <div className={styles.gallery}>
       {images.map((image: image) => (
