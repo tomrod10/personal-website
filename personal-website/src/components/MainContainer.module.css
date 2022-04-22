@@ -1,0 +1,11 @@
+:root {
+  --marginY: 30px;
+  --marginX: 110px;
+}
+
+.mainContainer{
+  display: flex;
+  margin: var(--marginY) var(--marginX);
+  flex-direction: column;
+  align-items: center;
+}

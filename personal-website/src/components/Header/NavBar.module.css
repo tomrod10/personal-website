@@ -1,19 +1,20 @@
 @import '../../styles/core-styles.css';
 
-:root {
-  /* use multiple from spacer */
-  --navBarWidth: 400px;
+a {
+  text-decoration: none;
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
-  gap: var(--spacerXXL);
-  width: var(--navBarWidth);
-  padding: var(--spacerS);
+  width: 100%;
+  margin-bottom: var(--spacer);
   font-family: var(--fontFamily1);
 }
 
 .navBarItem {
+  display: flex;
+  width: inherit;
+  justify-content: space-between;
   list-style: none;
 }

@@ -7,7 +7,7 @@ import styles from "./MainContent.module.css"
 export const MainContent = () => {
   return(
     <div className={styles.container}>
-      <SideBar />
+      {/* <SideBar /> */}
       <Gallery />
     </div>
   )
