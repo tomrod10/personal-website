@@ -7,7 +7,7 @@ export const NavBar = () => {
   return(
     <nav className={styles.navbar}>
       <ul className={styles.navBarItem}>
-        <li className={styles.item}>
+        <li>
           <Link to="/">all</Link>
         </li>
         <li>
