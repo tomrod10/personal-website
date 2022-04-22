@@ -19,7 +19,6 @@ export const NavBar = () => {
       <a>{'images'}</a>
       <a>{'architecture'}</a>
       <a>{'art'}</a>
-      {/* <a>{'other'}</a> */}
     </nav>
   )
 }
