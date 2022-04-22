@@ -11,14 +11,21 @@ export const NavBar = () => {
           <Link to="/">all</Link>
         </li>
         <li>
+          <Link to="/design">design</Link>
+        </li>
+        <li>
+          <Link to="/images">images</Link>
+        </li>
+        <li>
+          <Link to="/architecture">architecture</Link>
+        </li>
+        <li>
+          <Link to="/art">art</Link>
+        </li>
+        <li>
           <Link to="/other">other</Link>
         </li>
       </ul>
-
-      <a>{'design'}</a>
-      <a>{'images'}</a>
-      <a>{'architecture'}</a>
-      <a>{'art'}</a>
     </nav>
   )
 }
