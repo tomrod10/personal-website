@@ -1,11 +1,11 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { images } from "../../images/index.ts"
 
-import { filter } from 'lodash'
+import { compact } from 'lodash'
 
 import styles from "./MainContent.module.css"
 
-interface image {
+interface Image {
   title: string,
   date: string,
   description: string,
@@ -14,13 +14,21 @@ interface image {
   categories: string[],
 }
 
-export const Gallery = ({category}) => {
-  const filtered: object[] = filter(images, images.categories?.includes(category))
+export const Gallery = ({category = 'all'}) => {
+  let [filter, setFilter] = useState(category)
+  useEffect(() => {
+    setFilter(category)
+  }, [category])
+
+  const filtered: Image[] = compact(images.map((image) => {
+    return image.categories.includes(filter) ? image :  null
+  }))
+  console.log(filtered)
   return (
     <div className={styles.gallery}>
-      {images.map((image: image) => (
-        <img src={image.img} className={styles.item} alt={image.title} key={image.img}/>
-      ))}
+      {filtered.map((image: Image) => {
+        return <img src={image.img} className={styles.item} alt={image.title} key={image.img}/>
+      })}
     </div>
   )
 }
