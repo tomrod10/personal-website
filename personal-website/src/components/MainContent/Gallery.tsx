@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { images } from "../../images/index.ts"
 
-import { compact } from 'lodash'
-
 import styles from "./MainContent.module.css"
 
 interface Image {
@@ -20,9 +18,7 @@ export const Gallery = ({category = 'all'}) => {
     setFilter(category)
   }, [category])
 
-  const filtered: Image[] = compact(images.map((image) => {
-    return image.categories.includes(filter) ? image :  null
-  }))
+  const filtered: Image[] = (images.filter(((image) => image.categories.includes(filter))))
 
   return (
     <div className={styles.gallery}>
