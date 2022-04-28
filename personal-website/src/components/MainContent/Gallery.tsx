@@ -23,7 +23,7 @@ export const Gallery = ({category = 'all'}) => {
   const filtered: Image[] = compact(images.map((image) => {
     return image.categories.includes(filter) ? image :  null
   }))
-  console.log(filtered)
+
   return (
     <div className={styles.gallery}>
       {filtered.map((image: Image) => {
