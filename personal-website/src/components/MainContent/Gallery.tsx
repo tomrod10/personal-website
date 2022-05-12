@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
-import { images } from "../../images/index.ts"
+import { useParams } from "react-router-dom"
 
-import { compact } from 'lodash'
+import { images } from "../../images/index.ts"
 
 import styles from "./MainContent.module.css"
 
@@ -14,15 +14,15 @@ interface Image {
   categories: string[],
 }
 
-export const Gallery = ({category = 'all'}) => {
-  let [filter, setFilter] = useState(category)
+
+export const Gallery = () => {
+  const category = useParams().all // don't know why it's all under 'all' ???
+  const [filter, setFilter] = useState('all')
   useEffect(() => {
     setFilter(category)
   }, [category])
 
-  const filtered: Image[] = compact(images.map((image) => {
-    return image.categories.includes(filter) ? image :  null
-  }))
+  const filtered: Image[] = (images.filter(((image) => image.categories.includes(filter))))
 
   return (
     <div className={styles.gallery}>

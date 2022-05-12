@@ -8,7 +8,7 @@ export const NavBar = () => {
     <nav className={styles.navbar}>
       <ul className={styles.navBarItem}>
         <li>
-          <Link to="/">all</Link>
+          <Link to="/all">all</Link>
         </li>
         <li>
           <Link to="/design">design</Link>
