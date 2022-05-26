@@ -2,6 +2,11 @@
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: lightgray;
 }
 
 .navbar {
@@ -10,11 +15,18 @@ a {
   width: 100%;
   margin-bottom: var(--spacer);
   font-family: var(--fontFamily1);
+  gap: var(--spacerXL);
 }
 
 .navBarItem {
   display: flex;
   width: inherit;
+  align-items: flex-end;
   justify-content: space-between;
   list-style: none;
+}
+
+.title{
+  font-size: var(--fontSizeL);
+  font-weight: var(--fontWeight4);
 }
