@@ -6,6 +6,7 @@ import styles from './NavBar.module.css'
 export const NavBar = () => {
   return(
     <nav className={styles.navbar}>
+      <Link to='/all' className={styles.title}>scOpd</Link>
       <ul className={styles.navBarItem}>
         <li>
           <Link to="/all">all</Link>
