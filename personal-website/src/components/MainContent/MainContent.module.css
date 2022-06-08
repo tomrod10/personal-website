@@ -37,7 +37,24 @@
   overflow: auto;
 }
 
+.galleryGrid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: var(--spacer);
+}
+
 .item {
+  height: auto;
+  max-width: 100%;
+  margin-bottom: var(--spacer);
+}
+
+.item2 {
+  max-height: 600px;
+  max-width: 200px;
+  width: fit-content;
   margin-bottom: var(--spacer);
 }
 

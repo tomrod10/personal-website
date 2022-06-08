@@ -11,12 +11,7 @@ ReactDOM.render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} >
-          <Route path="/:all" element={<App />} />
-          <Route path="/:design" element={<App />} />
-          <Route path="/:images" element={<App />} />
-          <Route path="/:architecture" element={<App />} />
-          <Route path="/:art" element={<App />} />
-          <Route path="/:other" element={<App />} />
+          <Route path="/:category" element={<App />} />
         </Route>
       </Routes>
     </Router>

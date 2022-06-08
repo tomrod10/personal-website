@@ -8,6 +8,14 @@ export const images = [
       categories: ['all', 'design'], // subject to change depending the links for the navbar
     },
     {
+      title: 'Hang in there small',
+      date: '10/09/2019',
+      description: 'lorem ipsum blah blah',
+      img: './Poster No. 6_Winner_Small.jpg',
+      author: 'Tomás Rodríguez',
+      categories: ['architecture'], // subject to change depending the links for the navbar
+    },
+    {
       title: 'Mt. Baldy',
       date: '10/10/2019',
       description: 'lorem ipsum blah blah',
@@ -53,6 +61,14 @@ export const images = [
       description: 'lorem ipsum blah blah',
       img: './Braun Audio 300 by Dieter Rams.jpeg',
       author: 'Dieter Rams',
+      categories: ['all', 'other'],
+    },
+    {
+      title: 'test1',
+      date: 'unknown',
+      description: 'lorem ipsum blah blah',
+      img: './IMG_1250.JPG',
+      author: 'unknown',
       categories: ['all', 'other'],
     },
   ]
